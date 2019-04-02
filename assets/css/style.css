@@ -17,7 +17,7 @@ a, a:hover{
 
 .separateur{
   height: 4px;
-  width: 5%;
+  width: 12%;
   border: none;
   box-shadow: none;
   background-color: #00ACFF;
@@ -91,5 +91,20 @@ a, a:hover{
 }
 
 .inner-banner .btn-custom:hover{
-  background-color: #2C3E50.
+  background-color: #2C3E50;
+}
+
+/*about*/
+
+#about{
+  text-align: center;
+  padding-top: 40px;
+}
+
+.about article {
+  margin: 40px;
+}
+
+.about article h2{
+  text-align: center;
 }
