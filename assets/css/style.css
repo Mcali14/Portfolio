@@ -30,3 +30,17 @@ header{
   letter-spacing: 1px;
   float: left;
 }
+
+.menu {
+  float: right;
+}
+
+.menu a{
+  color: #ffffff;
+  font-weight: bold;
+  margin-right: 20px;
+}
+
+.menu a:hover {
+  color: blue;
+}
