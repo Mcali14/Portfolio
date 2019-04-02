@@ -14,3 +14,11 @@ a, a:hover{
 .container-fluid{
   padding: 0;
 }
+
+/* header*/
+
+header{
+  background-color: #00ACFF;
+  height: 80px;
+  line-height: 80px;
+ }
