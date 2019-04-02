@@ -75,3 +75,7 @@ header{
   font-weight: bold;
   text-shadow: 1px 1 px 30 px #000000;
 }
+
+.inner-banner .btn-custom:hover {
+  background-color: #0C67E8;
+}
