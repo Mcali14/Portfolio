@@ -44,3 +44,34 @@ header{
 .menu a:hover {
   color: blue;
 }
+
+/*bannière*/
+
+.banner {
+  width: 100%;
+  max-width: 100%;
+}
+
+.ban {
+  width: 100%;
+  max-width: 100%;
+  position: relative;
+}
+
+.ban img{
+  width: 100%;
+  max-width: 100%;
+}
+
+.inner-banner {
+  position: absolute;
+  top:50%;
+  width: 100%;
+  text-align: center;
+}
+
+.inner-banner h1 {
+  color: #0CDAE8;
+  font-weight: bold;
+  text-shadow: 1px 1 px 30 px #000000;
+}
