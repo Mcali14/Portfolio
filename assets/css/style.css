@@ -17,7 +17,7 @@ a, a:hover{
 
 /* header*/
 
-header{
+.header{
   background-color: #00ACFF;
   height: 80px;
   line-height: 80px;
@@ -38,7 +38,7 @@ header{
 .menu a{
   color: #ffffff;
   font-weight: bold;
-  margin-right: 20px;
+  margin-right: 30px;
 }
 
 .menu a:hover {
@@ -73,9 +73,14 @@ header{
 .inner-banner h1 {
   color: #0CDAE8;
   font-weight: bold;
-  text-shadow: 1px 1 px 30 px #000000;
+  text-shadow: 1px 1px 30px #000000;
 }
 
-.inner-banner .btn-custom:hover {
-  background-color: #0C67E8;
+.inner-banner .btn-custom {
+  background-color: #00ACFF;
+  color: #ffffff;
+}
+
+.inner-banner .btn-custom:hover{
+  background-color: #2C3E50.
 }
