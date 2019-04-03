@@ -101,9 +101,6 @@ a, a:hover{
   padding-top: 50px;
 }
 
-.about article {
-  margin: 50px;
-}
 
 .about article h2{
   text-align: center;
@@ -113,8 +110,17 @@ a, a:hover{
 
 .portfolio {
   background-color: #eeeeee;
+  height: 800px;
+  padding: 40px;
+  text-align: center;
+  
 }
 
 #portfolio {
   text-align: center;
+}
+
+.portfolio .item-folio {
+  height: 50px;
+  background-color: #3498DB;
 }
