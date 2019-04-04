@@ -150,4 +150,7 @@ a, a:hover{
     -webkit-text-fill-color: transparent !important;
 }
 
+.contact-form .form-field {
+  position: relative;
+  margin: 32px 0;
 }
