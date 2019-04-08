@@ -163,4 +163,19 @@ a, a:hover{
   border-color: #5543ca;
   font-size: 18px;
   line-height: 26px;
+  font-weight: 400;
+}
+.contact-form .input-text:focus {
+  outline: none;
+}
+
+contact-form .input-text:focus + .label,
+.contact-form .input-text.not-empty + .label {
+  -webkit-transform: translateY(-24px);
+          transform: translateY(-24px);
+
+.contact-form . input text:focus + .label,
+.contact-form .input-text.not-empty + .label{
+  -webkit-transform: translateY(-24px);
+          transform: translateY(-24px);
 }
