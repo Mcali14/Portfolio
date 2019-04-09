@@ -106,7 +106,7 @@ a, a:hover{
   text-align: center;
 }
 
-/*about*/
+/*portfolio*/
 
 .portfolio {
   background-color: #eeeeee;
@@ -119,6 +119,7 @@ a, a:hover{
 #portfolio {
   text-align: center;
 }
+
 
 .portfolio .item-folio {
   height: 50px;
