@@ -122,11 +122,9 @@ a, a:hover{
 
 
 .portfolio .item-folio {
-  height: 50px;
-  /*background-color: #3498DB;*/
-}
-
-
+  display: inline-block;
+  height: 260px;
+  width: 260px;
 /*Formulaire contact*/
 
 .get-in-touch {
