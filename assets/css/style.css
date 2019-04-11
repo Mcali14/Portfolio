@@ -1,3 +1,4 @@
+
 body, html{
   padding: 0;
   margin: 0;
@@ -24,36 +25,6 @@ a, a:hover{
 }
 
 
-/* header*/
-
-.header{
-  background-color: #00ACFF;
-  height: 80px;
-  line-height: 80px;
- }
-
-.logo{
-  color: #ffffff;
-  text-transform: uppercase;
-  font-weight: bold;
-  letter-spacing: 1px;
-  float: left;
-}
-
-.menu {
-  float: right;
-}
-
-.menu a{
-  color: #ffffff;
-  font-weight: bold;
-  margin-right: 30px;
-}
-
-.menu a:hover {
-  color: blue;
-}
-
 /*bannière*/
 
 .banner {
@@ -73,78 +44,102 @@ a, a:hover{
 }
 
 .inner-banner {
-  position: absolute;
+  position: relative;
   top:50%;
   width: 100%;
   text-align: center;
 }
 
 .inner-banner h1 {
+  color: #0CDAE8;
+  font-weight: bold;
+  text-shadow: 1px 1 px 30 px #000000;
+}
+
+.inner-banner .btn-custom:hover {
+  background-color: #0C67E8;
+}
+/* header*/
+
+header{
+  background-color: #00ACFF;
+  height: 80px;
+  line-height: 80px;
+ }
+
+ .logo{
+  color: #ffffff;
+  text-transform: uppercase;
+  font-weight: bold;
+  letter-spacing: 1px;
+  float: left;
+}
+
+.menu {
+  float: right;
+}
+
+.menu a{
   color: #ffffff;
   font-weight: bold;
-  text-shadow: 1px 1px 30px #000000;
+  margin-right: 20px;
 }
 
-.inner-banner .btn-custom {
-  background-color: #00ACFF;
-  color: #ffffff;
-}
-
-.inner-banner .btn-custom:hover{
-  background-color: #2C3E50;
+.menu a:hover {
+  color: blue;
 }
 
 /*about*/
-
-#about{
-  text-align: center;
-  padding-top: 50px;
-}
-
-
-.about article h2{
-  text-align: center;
-}
-
-/*portfolio*/
 
 .portfolio {
   background-color: #eeeeee;
   height: 800px;
   padding: 40px;
   text-align: center;
-
 }
 
 #portfolio {
   text-align: center;
 }
 
-
 .portfolio .item-folio {
   display: inline-block;
-  /*height: 50px;*/
-  /*background-color: #3498DB;*/
+   height: 260px;
+   width: 260px;
 }
+
+#about{
+  text-align: center;
+  padding-top: 50px;
+}
+
+.about article {
+  margin: 50px;
+}
+
+.about article h2{
+  text-align: center;
+}
+
 /*Formulaire contact*/
 
 .get-in-touch {
   max-width: 800px;
   margin: 50px auto;
   position: relative;
-}
 
-.get-in-touch .title{
+}
+.get-in-touch .title {
   text-align: center;
   text-transform: uppercase;
   letter-spacing: 3px;
   font-size: 3.2em;
   line-height: 48px;
   padding-bottom: 48px;
-  color: #5543ca;
-  background-color: #5543ca;
-  background: -moz-linear-gradient(left,#f4524d  0%,#5543ca 100%) !important;
-  background: -webkit-linear-gradient(left,#f4524d  0%,#5543ca 100%) !important;
+     color: #5543ca;
+    background: #5543ca;
+    background: -moz-linear-gradient(left,#f4524d  0%,#5543ca 100%) !important;
+    background: -webkit-linear-gradient(left,#f4524d  0%,#5543ca 100%) !important;
     background: linear-gradient(to right,#f4524d  0%,#5543ca  100%) !important;
     -webkit-background-clip: text !important;
     -webkit-text-fill-color: transparent !important;
@@ -154,11 +149,10 @@ a, a:hover{
   position: relative;
   margin: 32px 0;
 }
-
 .contact-form .input-text {
   display: block;
   width: 100%;
-  height: 36%;
+  height: 36px;
   border-width: 0 0 2px 0;
   border-color: #5543ca;
   font-size: 18px;
@@ -168,28 +162,25 @@ a, a:hover{
 .contact-form .input-text:focus {
   outline: none;
 }
-
-contact-form .input-text:focus + .label,
+.contact-form .input-text:focus + .label,
 .contact-form .input-text.not-empty + .label {
   -webkit-transform: translateY(-24px);
           transform: translateY(-24px);
 }
-
-.Contacte-fom .label{
+.contact-form .label {
   position: absolute;
-  left: 20px
+  left: 20px;
   bottom: 11px;
   font-size: 18px;
   line-height: 26px;
   font-weight: 400;
   color: #5543ca;
- cursor: text;
- transition: -webkit-transform .2s ease-in-out;
- transition: transform .2s ease-in-out;
- transition: transform .2s ease-in-out,
- -webkit-transform .2s ease-in-out;
+  cursor: text;
+  transition: -webkit-transform .2s ease-in-out;
+  transition: transform .2s ease-in-out;
+  transition: transform .2s ease-in-out,
+  -webkit-transform .2s ease-in-out;
 }
-
 .contact-form .submit-btn {
   display: inline-block;
   background-color: #000;
@@ -202,7 +193,7 @@ contact-form .input-text:focus + .label,
   border: none;
   width:200px;
   cursor: pointer;
-  }
+}
 
 
 /*footer*/
@@ -304,7 +295,7 @@ p {
 
 .dk-footer-box-info {
   position: absolute;
-  top: -50px;
+  top: -5px;
   background: #202020;
   padding: 40px;
   z-index: 2; }
@@ -434,9 +425,7 @@ p {
     cursor: pointer; }
 
 /* ==========================
-
     Contact
-
 =============================*/
 .contact-us {
   position: relative;
