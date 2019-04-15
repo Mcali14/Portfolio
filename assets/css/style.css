@@ -21,6 +21,7 @@ a, a:hover{
   border: none;
   box-shadow: none;
   background-color: #00ACFF;
+
 }
 
 @media (min-width: 576px) { ... }
@@ -120,13 +121,15 @@ a, a:hover{
 
 /*portfolio*/
 
+container-fluid .portfolio{
+
+}
+
 .portfolio {
   background-color: #eeeeee;
   height: 800px;
   padding: 40px;
   text-align: center;
-  position: relative;
-
 }
 
 #portfolio {
@@ -136,7 +139,6 @@ a, a:hover{
 
 .portfolio .item-folio {
   display: inline-block;
-  position : relative;
   /*height: 50px;*/
   /*background-color: #3498DB;*/
 }
